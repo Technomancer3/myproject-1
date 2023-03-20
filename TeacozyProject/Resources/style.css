@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe, h1, 
+h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, font, img, ins, kbd, 
+q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, 
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    padding-top: 0;
+}
+body {
+    background-color: black;
+}
+a {
+    color: seashell;
+}
+.main {
+    position: relative;
+    z-index: 1;
+    padding-top: 3.18rem;
+}
+/*header*/
+.header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 3.18rem;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+.logo {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    float: left;
+    margin-left: 0.45rem;
+    height: 2.3rem;
+}
+.header .nav {
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.nav .item {
+    text-decoration: underline;
+    margin-right: 0.45rem;
+    margin-left: 1.2rem;
+}
+
+/*mission*/
+.mission {
+    width: 95.6%;
+    margin: 0 auto;
+    height: 31.81rem;
+    background: url("./Media/img-mission-background.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+}
+.mission .content {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+.mission .content h2 {
+    font-size: 1.8rem;
+    margin-top: 0.45rem;
+    margin-bottom: 0.4rem;
+}
+.mission .content h4 {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*tea of the month*/
+.month {
+    width: 95.6%;
+    height: 31.81rem;
+    margin: 0 auto;
+}
+.month .content {
+    width: 100%;
+    background-color: black;
+    margin: auto;
+}
+.month .content h2 {
+    font-size: 1.5rem;
+    padding-top: 2.5rem;
+    margin-top: 0.45rem;
+    margin-bottom: 0.6rem;
+}
+.month .content h4 {
+    margin-bottom: 1.5rem;
+}
+.month h4 {
+    font-size: 1rem;
+}
+.month .images h4{
+    margin-top: 0.45rem;
+    margin-bottom: 0.9rem;
+}
+.month .images {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.month .images img{
+    margin:0 0.5rem;
+    width: 13.63rem;
+    height: 9.09rem;
+}
+/*location*/
+.location {
+    width: 95.6%;
+    height: 22.72rem;
+    margin: 0 auto;
+    background: url("./Media/img-locations-background.jpg") no-repeat;
+    background-size: cover;
+}
+.location .content h2{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    margin-top: 0.45rem;
+    margin-bottom: 0.8rem; 
+}
+.location .lists {
+    display: flex;
+    justify-content: center;
+
+}
+.location .lists .street {
+    background-color: black;
+    opacity: 1;
+    width: 12rem;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+    border-radius: 2%;
+}
+.location .lists .street h3 {
+    margin-top: 0.7rem;
+    font-size: 1.1rem;
+}
+.location .lists .street p {
+    margin-top: 0.95rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+/*information*/
+.information {
+    height: 9.09rem; 
+}
+.information h2 {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.8rem; 
+}
+.information h5 {
+    font-size: 0.8rem;
+    margin-bottom: 1.2rem;
+}
+/*footer*/
+.footer h5 {
+    font-size: 0.8rem;
+    text-align: left; 
+    padding-left: 0.9rem;
+    padding-bottom: 0.9rem;
+}
